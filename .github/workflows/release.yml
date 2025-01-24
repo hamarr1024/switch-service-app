@@ -4,7 +4,8 @@ on:
   push:
     tags:
       - v*.*.*
-
+env:
+  GITHUB_TOKEN: ${{ secrets.SS_TOKEN }}
 jobs:
   release:
     runs-on: ${{ matrix.os }}
@@ -49,6 +50,6 @@ jobs:
             dist/*.zip
             dist/*.yml
             dist/*.blockmap
-        env:
-          GITHUB_TOKEN: ${{ secrets.SS_TOKEN }}
+        # env:
+        #   GITHUB_TOKEN: ${{ secrets.SS_TOKEN }}
           # GITHUB_TOKEN: ${{ secrets.SS_TOKEN }}
