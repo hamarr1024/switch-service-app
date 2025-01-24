@@ -14,15 +14,14 @@ So I wrote this tool. However it only supports Eureka as registry right now, sin
 Three steps to start a proxy service: 
 1. Create a `service group` with any name you like, and configure the registry.
    ![alt text](./readme/image.png)
-2. Add a `proxy service` in the proxy panel, and configure the targets you want to forward your requests.
+2. Add a `proxy service` in the proxy panel, and configure the targets you wish to forward your requests to.
 ![alt text](./readme/image-1.png)
-1. Click the `start` button to make the proxy server up. You can switch the forward configs in then runtime.
+1. Click the `start` button to make the proxy server up. You can switch the forward configs at runtime.
 ![alt text](./readme/image-2.png)
 
 ## Other features
 1. Click the `close` button to dock the app to the system tray
-2. Right click the `Switch Service` icon in the tray to start/stop the server.
-3. You can also switch the proxy config from the tray
+2. Right click the `Switch Service` icon in the tray to get menu, with which you can start/stop the server, or switch the proxy config.
 ![alt text](./readme/image-3.png)
 ## Contact
 You can contact me by email (hamarr1024@icloud.com) or raise an issue. 
