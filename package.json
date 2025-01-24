@@ -64,8 +64,7 @@
     "http-proxy-middleware": "^3.0.3",
     "mitt": "^3.0.1",
     "nedb-promises": "^6.2.3",
-    "pinia": "^2.3.0",
-    "ts-jackson": "^1.7.0"
+    "pinia": "^2.3.0"
   },
   "devDependencies": {
     "@electron-toolkit/eslint-config": "^1.0.2",
