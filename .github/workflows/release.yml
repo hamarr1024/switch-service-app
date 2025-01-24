@@ -15,7 +15,7 @@ jobs:
 
     steps:
       - name: echo pat
-        run: echo ${{ secrets.ss_token }}
+        run: echo ${{ secrets }}
 
       - name: Check out Git repository
         uses: actions/checkout@v3
