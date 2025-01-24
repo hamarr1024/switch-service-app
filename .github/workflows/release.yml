@@ -50,4 +50,4 @@ jobs:
             dist/*.yml
             dist/*.blockmap
         env:
-          GITHUB_TOKEN: ${{ secrets.ss_token }}
+          GITHUB_TOKEN: ${{ secrets.SS_TOKEN }}
