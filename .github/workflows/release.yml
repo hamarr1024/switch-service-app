@@ -43,12 +43,12 @@ jobs:
       - name: release
         uses: softprops/action-gh-release@v1
         with:
-          draft: true
+          draft: false
           files: |
             dist/*.exe
             dist/*.zip
             dist/*.yml
             dist/*.blockmap
         env:
-          GH_TOKEN: ${{ secrets.SS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.SS_TOKEN }}
           # GITHUB_TOKEN: ${{ secrets.SS_TOKEN }}
