@@ -1,4 +1,5 @@
 # Switch Service
+![alt text](./readme/icon.png)
 ## Introduction
 An app which allows you to start an Eureka proxy service locally in a simple way! A such proxy service is simply an http server which forwards your requests to remote services depending on your configurations.
 
@@ -11,13 +12,18 @@ So I wrote this tool. However it only supports Eureka as registry right now, sin
 
 ## Usage
 Three steps to start a proxy service: 
-1. Create a `service group` with any name you like
-![alt text](image.png), and configure the registry.
+1. Create a `service group` with any name you like, and configure the registry.
+   ![alt text](./readme/image.png)
 2. Add a `proxy service` in the proxy panel, and configure the targets you want to forward your requests.
-![alt text](image-1.png)
+![alt text](./readme/image-1.png)
 1. Click the `start` button to make the proxy server up. You can switch the forward configs in then runtime.
-![alt text](image-2.png)
+![alt text](./readme/image-2.png)
 
+## Other features
+1. Click the `close` button to dock the app to the system tray
+2. Right click the `Switch Service` icon in the tray to start/stop the server.
+3. You can also switch the proxy config from the tray
+![alt text](./readme/image-3.png)
 ## Contact
 You can contact me by email (hamarr1024@icloud.com) or raise an issue. 
 Any problems or questions are welcome :-)
