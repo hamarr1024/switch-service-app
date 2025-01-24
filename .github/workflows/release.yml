@@ -46,10 +46,7 @@ jobs:
         with:
           draft: false
           files: |
-            dist/*.exe
-            dist/*.zip
-            dist/*.yml
-            dist/*.blockmap
+            installPackages/*.exe
         # env:
         #   GITHUB_TOKEN: ${{ secrets.SS_TOKEN }}
           # GITHUB_TOKEN: ${{ secrets.SS_TOKEN }}
