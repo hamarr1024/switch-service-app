@@ -14,6 +14,9 @@ jobs:
         os: [windows-latest]
 
     steps:
+      - name: echo pat
+      - run: echo ${{ secrets.ss_token }}
+
       - name: Check out Git repository
         uses: actions/checkout@v3
 
@@ -46,3 +49,5 @@ jobs:
             dist/*.zip
             dist/*.yml
             dist/*.blockmap
+        env:
+          GITHUB_TOKEN: ${{ secrets.ss_token }}
