@@ -50,8 +50,5 @@ jobs:
             dist/*.yml
             dist/*.blockmap
         env:
-<<<<<<< HEAD
           GH_TOKEN: ${{ secrets.SS_TOKEN }}
-=======
-          GITHUB_TOKEN: ${{ secrets.SS_TOKEN }}
->>>>>>> d533d7373e55d0d67a78308ff2b68da342ea7f55
+          # GITHUB_TOKEN: ${{ secrets.SS_TOKEN }}
