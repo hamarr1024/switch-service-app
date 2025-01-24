@@ -15,7 +15,7 @@ jobs:
 
     steps:
       - name: echo pat
-        run: echo ${{ secrets.ss_token }}
+        run: echo ${{ secrets.SS_TOKEN }}
 
       - name: Check out Git repository
         uses: actions/checkout@v3
@@ -50,4 +50,4 @@ jobs:
             dist/*.yml
             dist/*.blockmap
         env:
-          GITHUB_TOKEN: ${{ secrets.SS_TOKEN }}
+          GH_TOKEN: ${{ secrets.SS_TOKEN }}
